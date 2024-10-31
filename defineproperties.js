@@ -31,6 +31,6 @@ person.fullName = "jaewoo Kim";
 console.log(person);
 
 //객체 변경 방지
-Object.preventExtensions; // 객체 확장 금지
-Object.seal; // 객체 밀봉
-Object.freeze; // 객체 동결
+Object.preventExtensions; // 객체 확장 금지 -> 프로퍼티 추가가 금지된다.
+Object.seal; // 객체 밀봉 -> 객체를 읽기와 쓰기만 가능.
+Object.freeze; // 객체 동결 -> 객체가 읽기만 가능하게 함.
